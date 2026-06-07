@@ -2,7 +2,7 @@
 <!-- Replace YOUR-SITE-URL with your live domain before publishing -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>YOUR-SITE-URL/index2.html</loc>
+    <loc>YOUR-SITE-URL/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
