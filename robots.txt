@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace YOUR-SITE-URL with your live domain before publishing, e.g. https://fountaindiner.ca
+Sitemap: YOUR-SITE-URL/sitemap.xml

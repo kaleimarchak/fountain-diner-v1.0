@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Fountain Diner Menu | Breakfast & Lunch in Langford BC</title>
+
+<meta name="description" content="View the Fountain Diner menu in Langford, BC — all-day breakfast, skillets, eggs benedict, burgers, sandwiches, kids meals, sides, and drinks with prices.">
+<meta name="keywords" content="Fountain Diner menu, breakfast menu Langford, lunch menu Langford, eggs benedict, diner menu BC">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Fountain Diner">
+<link rel="icon" href="images/logo.png" type="image/png">
+
+<meta property="og:title" content="Fountain Diner Menu | Langford BC">
+<meta property="og:description" content="Full breakfast and lunch menu for Fountain Diner in Langford, BC. All-day breakfast, burgers, bennies, and more.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_CA">
+<meta property="og:site_name" content="Fountain Diner">
+<meta property="og:image" content="images/logo.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Fountain Diner Menu | Langford BC">
+<meta name="twitter:description" content="Full breakfast and lunch menu for Fountain Diner in Langford, BC.">
+<meta name="twitter:image" content="images/logo.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Fountain Diner",
+  "url": "index2.html",
+  "hasMenu": {
+    "@type": "Menu",
+    "name": "Fountain Diner Menu",
+    "url": "menus.html",
+    "hasMenuSection": [
+      { "@type": "MenuSection", "name": "Breakfast Menu" },
+      { "@type": "MenuSection", "name": "Lunch Menu" },
+      { "@type": "MenuSection", "name": "Kids Menu" },
+      { "@type": "MenuSection", "name": "Sides & Add-Ons" },
+      { "@type": "MenuSection", "name": "Drinks" }
+    ]
+  }
+}
+</script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Rochester&family=Roboto+Slab:wght@600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="css/fd-style.css" rel="stylesheet">
+<link href="css/menu-style.css" rel="stylesheet">
+
+</head>
+
+<body class="menu-page">
+
+	<header class="menu-site-header sticky-top">
+	  <!-- NAVBAR -->
+	  <nav class="navbar navbar-expand-lg fd-navbar">
+		<div class="container">
+
+		  <a class="navbar-brand" href="index2.html#home">
+			<img src="images/logo.png" alt="Fountain Diner">
+		  </a>
+
+		  <button class="navbar-toggler fd-navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="fd-hamburger" aria-hidden="true">
+			  <span class="fd-hamburger-line"></span>
+			  <span class="fd-hamburger-line"></span>
+			</span>
+		  </button>
+
+		  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+			<ul class="navbar-nav align-items-lg-center">
+			  <li class="nav-item"><a class="nav-link" href="index2.html#home">Home</a></li>
+			  <li class="nav-item"><a class="nav-link active" href="menus.html">Menu</a></li>
+			  <li class="nav-item"><a class="nav-link" href="index2.html#visit">Location</a></li>
+			  <li class="nav-item"><a class="nav-link" href="index2.html#visit">Contact</a></li>
+			  <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+				<a class="btn btn-danger nav-cta" href="https://www.doordash.com/store/fountain-diner-victoria-29837173/" target="_blank" rel="noopener">Order Online</a>
+			  </li>
+			</ul>
+		  </div>
+
+		</div>
+	  </nav>
+
+	  <!-- MENU PAGE NAV -->
+	  <nav class="menu-jump-nav" aria-label="Menu sections">
+		<div class="container">
+		  <a class="menu-jump-link" href="#breakfast">Breakfast</a>
+		  <a class="menu-jump-link" href="#lunch">Lunch</a>
+		  <a class="menu-jump-link" href="#kids">Kids</a>
+		  <a class="menu-jump-link" href="#sides">Sides</a>
+		  <a class="menu-jump-link" href="#drinks">Drinks</a>
+		</div>
+	  </nav>
+	</header>
+
+	<main class="menu-sheets">
+
+		<article id="breakfast" class="menu-sheet">
+		  <div id="breakfast-menu"></div>
+		</article>
+
+		<article id="lunch" class="menu-sheet">
+		  <div id="lunch-menu"></div>
+		</article>
+
+	</main>
+
+	<footer class="menu-page-footer">
+	  <div class="container">
+		<p>Family owned and operated for over 30 years.</p>
+		<p class="mb-0">A proud division of the Alpine Group © 2026.</p>
+	  </div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="js/menu/breakfastMenu.js"></script>
+	<script src="js/menu/lunchMenu.js"></script>
+	<script src="js/menu/kidsMenu.js"></script>
+	<script src="js/menu/sidesMenu.js"></script>
+	<script src="js/menu/drinksMenu.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>
